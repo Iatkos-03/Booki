@@ -1,0 +1,893 @@
+/* CSS GENERAL */
+
+html, body
+{
+  font-family: 'Raleway', sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 0;
+}
+.Between 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Around 
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Centre 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CentreColumn 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AroundColumn 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.BetweenColumn 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.DecoNon 
+{
+  text-decoration: none;
+}
+.BordureNon 
+{
+  border: none;
+}
+.Gras 
+{
+  font-weight: bold;
+}
+.Bleu 
+{
+  color: #0065fc;
+}
+.BleuClair 
+{
+  color: #deebff;
+}
+.Gris 
+{
+  color: #f2f2f2;
+}
+.FondBleu 
+{
+  background-color: #0065fc;
+}
+.FondBleuClair 
+{
+  background-color: #deebff;
+}
+.FondGris 
+{
+  background-color: #f2f2f2;
+}
+.Black 
+{
+  color: black;
+}
+h1, h2 , h3,
+{
+  font-size: 21px;
+}
+h4
+{
+  font-size: 18px;
+}
+/*EN-TÊTE*/
+
+.EnTete 
+{
+  height: auto;
+  margin-bottom: 3%;
+}
+.Logo 
+{
+  width: 100px;
+  height: 50px;
+  margin-top: 35px;
+}
+.TailleLien1 
+{
+  width: 100%;
+}
+.TailleLien2 {
+  margin-left: 60%;
+}
+.TailleLien3 
+{
+  width: 160px;
+  height: 99px;
+}
+.BordureNavigation 
+{
+  border-top: 2px solid transparent;
+}
+.BordureNav 
+{
+  border-top: 2px solid #0065fc;
+}
+.BordureNav:hover 
+{
+  border-top: 3px solid #0065fc;
+  cursor: pointer;
+}
+.BordureNav:hover > a 
+{
+  color: #0065fc;
+}
+.TitreMobile 
+{
+  line-height: 10px;
+}
+
+/*HEADER*/
+
+.AbsentDesktop 
+{
+  display: none;
+}
+.RechercheBordure 
+{
+  width: 400px;
+  border-radius: 14px;
+  border: 0.5px solid #f2f2f2;
+}
+.TitreMobile
+{
+  margin-bottom: 30px;
+}
+.MargeRecherche 
+{
+  padding-left: 10px;
+}
+.Recherche 
+{
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+.TailleIcons 
+{
+  height: 50px;
+  width: 50px;
+  border-radius: 14px 0 0 14px;
+}
+.RechercheBouton 
+{
+  height: 50px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 14px 14px 0;
+}
+.RechercheBouton:hover 
+{
+  color: #0065fc;
+  background-color: #f2f2f2;
+}
+
+/*HEADER: FILTRES ET INFO*/
+
+.FiltreMarge 
+{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.Filtre 
+{
+  display: flex;
+  align-items: center;
+}
+.FiltreMargeTitre 
+{
+  margin-right: 20px;
+}
+.TexteIcons 
+{
+  border: 3px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.TexteIcons:hover > .Texte 
+{
+  color: #0065fc;
+}
+.TexteIcons:hover > .Icons 
+{
+  color: white;
+  background-color: #0065fc;
+}
+.Texte 
+{
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 25px 25px 0;
+  font-size: 18px;
+}
+.Icons 
+{
+  margin-left: -2px;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065fc;
+  background-color: #deebff;
+}
+.Info 
+{
+  display: flex;
+  align-items: center;
+  margin-top: -2%;
+  margin-bottom: 30px;
+}
+.IconParent 
+{
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+/*SECTION: HEBERGEMENT*/
+
+.FlexHebergement 
+{
+  flex: 2;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.FlexPopulaires 
+{
+  flex: 1;
+  height: 650px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.HebergementsBloc 
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.Flex1 
+{
+  margin-bottom: 10px;
+}
+.Flex2 
+{
+  margin-top: 10px;
+}
+.BoiteHebergements 
+{
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 0.6%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.BoiteHebergements:hover 
+{
+  cursor: pointer;
+  transform: scale(1.08);
+}
+.BoitePrecisionHebergements 
+{
+  width: 100%;
+  font-size: smaller;
+  margin-left: 20px;
+}
+.imgHebergement 
+{
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+.imgHebergement2 
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+  }
+
+/*SECTION: POPULAIRES*/
+
+.PopulairesBloc 
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Populaires2Bloc 
+{
+  margin-bottom: 22px;
+}
+.BoitePopulaires 
+{
+  background-color: white;
+  height: auto;
+  width: auto;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+}
+.BoitePopulaires:hover 
+{
+  cursor: pointer;
+  transform: scale(1.04);
+}
+.BoitePrecisionPopulaires 
+{
+  width: 60%;
+  padding-left: 5%;
+  font-size: smaller;
+}
+.imgPopulaire 
+{
+  object-fit: cover;
+  width: 35%;
+  height: 160px;
+  border-radius: 16px 0 0 16px;
+}
+.Stars 
+{
+  margin-top: 28%;
+}
+.Star
+{
+  margin-top: 20%;
+}
+
+/*SECTION: ACTIVITES*/
+
+#Activites 
+{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.ActivitesBloc 
+{
+  width: 100%;
+  height: 600px;
+}
+.Activites2Bloc 
+{
+  width: 23%;
+  height: 509px;
+}
+
+/*SECTION: BOITE ACTIVITES*/
+
+.BoiteActivites 
+{
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.BoiteActivites:hover 
+{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.BoiteActivites2 
+{
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.BoiteActivites2:hover 
+{
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.HauteurActivitesTitre 
+{
+  height: 70px;
+}
+.ActivitesTitre 
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+}
+.imgActivites1 
+{
+  object-fit: cover;
+  width: 100%;
+  height: 440px;
+  border-radius: 15px 15px 0 0;
+}
+.imgActivites2 
+{
+  object-fit: cover;
+  width: 100%;
+  height: 220px;
+  border-radius: 15px 15px 0 0;
+}
+.imgActivites3 
+{
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+.imgActivites4 
+{
+  object-fit: cover;
+  width: 100%;
+  height: 440px;
+  border-radius: 15px 15px 0 0;
+}
+.imgActivites5 
+{
+  object-fit: cover;
+  width: 100%;
+  height: 140px;
+  border-radius: 15px 15px 0 0;
+}
+.imgActivites6 
+{
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+  border-radius: 15px 15px 0 0;
+}
+
+/*FOOTER*/
+
+.Footer 
+{
+  height: 200px;
+  margin-top: 100px;
+  margin: -6%;
+}
+.BlocFooter 
+{
+  height: 150px;
+}
+.Bloc1FooterMarge 
+{
+  margin-left: 5%;
+}
+.Bloc3FooterMarge 
+{
+  margin-right: 15%;
+}
+.FooterLien 
+{
+  color: black;
+}
+.BlocHauteurFooter 
+{
+  height: 30px;
+}
+@media screen and (max-width: 900px) 
+{
+  .TailleLien2 
+  {
+    margin-left: 35%;
+  }
+  .BoitePrecisionHebergements 
+  {
+    min-height: 150px;
+  }
+  .FlexHebergements 
+  {
+    min-height: auto;
+    padding: 20px;
+  }
+  .FlexPopulaires 
+  {
+    min-height: auto;
+    padding: 20px;
+  }
+  .TitrePopTablette 
+  {
+    margin-top: 0;
+  }
+  .HebergementsBloc
+  {
+    padding-top: 40px;
+  }
+  .FiltreMobile 
+  {
+    flex-wrap: wrap;
+    line-height: 200%;
+
+  }
+}
+@media screen and (max-width: 768px) 
+{
+  .FiltreMobile 
+  {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Etoile 
+  {
+    width: 30px;
+    height: 50px;
+  }
+  .TexteIcons 
+  {
+    margin-bottom: 20px;
+  }
+  #Hebergements 
+  {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .PopulairesBloc 
+  {
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+    padding: 5%;
+  }
+  .HebergementsBloc 
+  {
+    flex: none;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 50px;
+    padding: 5%;
+  }
+  .TitrePopTablette 
+  {
+    margin-top: 0;
+  }
+  .TailleLien2 
+  {
+    margin-left: 35%;
+  }
+  .BoitePrecisionHebergements 
+  {
+    min-height: 150px;
+  }
+  .FlexHebergements 
+  {
+    min-height: auto;
+    padding: 20px;
+  }
+  .FlexPopulaires 
+  {
+    min-height: auto;
+    padding: 20px;
+  }
+  .TitreMobile
+  {
+    line-height: 100%;
+  }
+  .PopulairesBloc 
+  {
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+    padding: 5%;
+  }
+  .Etoile 
+  {
+    width: 30px;
+    height: 34px;
+  }
+  .imgHebergement2 
+  {
+    object-fit: cover;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+  }
+  .FlexPopulaires 
+  {
+    min-height: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .TailleLien3 
+  {
+  flex-direction: row;
+  }
+  .HebergementsBloc 
+  {
+    flex: none;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 50px;
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 600px)
+{
+  .FiltreMobile 
+  {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .TailleLien3 
+  {
+    flex-direction: row;
+  }
+  .Etoile 
+  {
+    width: 30px;
+    height: 50px;
+  }
+  .TexteIcons 
+  {
+    margin-bottom: 20px;
+  }
+  #Hebergements 
+  {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .PopulairesBloc 
+  {
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+    padding: 5%;
+  }
+  .HebergementsBloc 
+  {
+    flex: none;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 50px;
+    padding: 5%;
+  }
+  .TailleLien1 
+  {
+    width: 90%;
+  }
+  .TailleLien2 
+  {
+    margin-left: 20%;
+  }
+  .HebergementsBloc
+  {
+    height: auto;
+  }
+  .BoiteHebergements 
+  {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .BoitePrecisionHebergements
+  {
+    min-height: auto;
+  }
+  .ActivitesBloc 
+  {
+    flex-direction: column;
+    height: auto;
+  }
+  .Flex1 
+  {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .Flex2 
+  {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .BoiteActivites 
+  {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .Activites2Bloc 
+  {
+    width: 100%;
+    height: auto;
+  }
+  .BoiteActivites2 
+  {
+    margin-bottom: 50px;
+  }
+  .imgActivites1, .imgActivites2, .imgActivites3, .imgActivites4, .imgActivites5, .imgActivites6 
+  {
+    height: 200px;
+  }
+  .Etoile 
+  {
+    width: 30px;
+    height: 34px;
+  }
+  .Footer 
+  {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding-left: 20px;
+  }
+  .Logo 
+  {
+    margin: 20px 0 0 190px;
+  }
+  .Bloc1FooterMarge 
+  {
+    margin-top: 30px;
+    margin-left: 8px;
+  }
+  .Etoile 
+  {
+    width: 30px;
+    height: 34px;
+  }
+  .BlocFooter 
+  {
+    line-height: 25px;
+  }
+  .TailleLien2 
+  {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .TailleLien3Mobile 
+  {
+    width: 50%;
+    height: 50px;
+    border-top: 0;
+    border-bottom: 5px solid #f2f2f2;
+  }
+  .TailleLien1 
+  {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .TailleLien3Mobile:hover 
+  {
+    border-top: 0;
+    border-bottom: 5px solid #0065fc;
+    height: 50px;
+  }
+  .RechercheBordure 
+  {
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .Recherche 
+  {
+    width: 250px;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+  }
+  .RechercheBouton 
+  {
+    width: 50px;
+    border-radius: 15px;
+  }
+  .AbsentDesktop 
+  {
+    display: block;
+  }
+  .AbsentMobile 
+  {
+    display: none;
+  }
+  .FiltreMarge 
+  {
+    padding-left: 5%;
+    margin-top: -4%;
+  }
+  .MobileEco 
+  {
+    margin-right: 5px;
+  }
+  .MobileFam 
+  {
+    margin-right: 0;
+  }
+  .Texte 
+  {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Info 
+  {
+    padding-left: 5%;
+    margin-top: -8%;
+    margin-bottom: 8%;
+  }
+  .MargeRecherche 
+  {
+    padding-left: 20px;
+  }
+  .Texte 
+  {
+    font-weight: 501;
+    font-size: medium;
+  }
+  .PopulairesBloc 
+  {
+    border-radius: 0;
+  }
+  .HebergementsBloc 
+  {
+    background-color: white;
+    margin-top: 10px;
+  }
+  .TitreMobile 
+  {
+    padding-left: 5%;
+    margin-top: 40px;
+    line-height: 200%;
+  }
+  .FiltreMobile 
+  {
+    line-height: 150%;
+  }
+  #Activites 
+  {
+    margin-top: -8%;
+  }
+  .Bloc2FooterMarge 
+  {
+    margin-top: 30px;
+  }
+  .Bloc3FooterMarge 
+  {
+    margin-top: 2px;
+  }
+  .ActivitesBloc 
+  {
+    padding: 5%;
+    width: 90%;
+  }
+  .TailleLien2 
+  {
+    flex-direction: row;
+  }
+  .Footer 
+  {
+    margin-top: -10%;
+    margin-left: 7px;
+  }
+  .TitrePopTablette 
+  {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .TitreMobile2 
+  {
+    padding-left: 5%;
+  }
+  html, body 
+  {
+    margin: 0;
+    padding: 0;
+  }
+}
